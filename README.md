@@ -1,1 +1,1 @@
-Repository for time series courses. It contains code and project reports.
+Repository for time series course. It contains code and project reports.
