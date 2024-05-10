@@ -4,7 +4,6 @@
 *Figure 1: Illustration of Time Series Analysis Method*
 
 ### Introduction
-
 This project is conducted as part of the course "Time Series Analysis". This project aims to forecast the monthly airline passenger count of the United States from 1949 to 1960 (`AirPassengers`).
 
 ### Methods
