@@ -15,7 +15,7 @@ Seasonal Autoregressive Integrated Moving Average (SARIMA) is an extension of th
 
 ### Key Findings
 1. **Linear Model Suitability**: A linear model is deemed inadequate for modeling this dataset due to its inability to capture seasonal effects. The appropriate model for the data is found to be the natural logarithm of `AirPassengers`, represented by ARIMA$(0, 1, 1)(0, 1, 1)_{12}$, with the estimated model:
-   $$\ln(Y_t) - \ln(Y_{t - 1}) - [\ln(Y {t - 12}) - \ln(Y_{t - 13})] = e_t -0.3424e_{t - 1} - 0.5405e_{t - 12} + 0.1850672e_{t - 13}.$$
+   $$\ln(Y_t) - \ln(Y_{t - 1}) - \[\ln(Y_{t - 12}) - \ln(Y_{t - 13})\] = e_t -0.3424e_{t - 1} - 0.5405e_{t - 12} + 0.1850672e_{t - 13}.$$
 
 2. **Residual Analysis**: The residuals of the model satisfy the diagnostic model assumptions, although visually, they may not closely resemble a normal distribution.
 
