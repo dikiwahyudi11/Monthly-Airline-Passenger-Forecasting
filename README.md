@@ -5,7 +5,7 @@
 
 ### Introduction
 
-This project aims to forecast the monthly airline passenger count of the United States from 1949 to 1960 (`AirPassengers`).
+This project is conducted as part of the course "Time Series Analysis". This project aims to forecast the monthly airline passenger count of the United States from 1949 to 1960 (`AirPassengers`).
 
 ### Methods
 Seasonal Autoregressive Integrated Moving Average (SARIMA) is an extension of the ARIMA model that incorporates seasonality. It is denoted as $\text{SARIMA}(p, d, q)(P, D, Q)_m$, where:
